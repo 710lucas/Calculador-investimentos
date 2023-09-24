@@ -1,5 +1,4 @@
 import { Mes } from "../classes/Mes";
-import { ProdutoCard } from "./ProdutoCard";
 import { ProdutosCard } from "./ProdutosCard";
 
 export const MesCard = ({mes} : {mes : Mes}) =>{

@@ -1,12 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Produto } from './classes/Produto'
 import { Mes } from './classes/Mes'
 import { Investimento } from './classes/Investimento'
-import { MesCard } from './Components/MesCard'
-import { ProdutoCard } from './Components/ProdutoCard'
 import { ProdutosCard } from './Components/ProdutosCard'
 import { MesesCard } from './Components/MesesCard'
 
@@ -36,9 +32,9 @@ function App() {
 
   const [produtosArray, setProdutosArray] = useState<Produto[]>([])
 
-  function salvarProdutos(){
-    localStorage.setItem("produtos", JSON.stringify([...produtosArray]))
-  }
+  // function salvarProdutos(){
+  //   localStorage.setItem("produtos", JSON.stringify([...produtosArray]))
+  // }
 
   function getProdutos(){
 
